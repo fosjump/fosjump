@@ -27,6 +27,7 @@ In order to contribute with code you need to know the basics of a *Version Contr
 [Mozilla](https://www.mozilla.org/en-US/contribute/signup/)
 
 
+------------------------------------------------
 
 #### License: 
 
