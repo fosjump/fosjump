@@ -32,6 +32,17 @@ A free Disqus alternative
 
 [ISSO](https://posativ.org/isso/contribute/)
 
+## FIND OTHER PROJECTS
+
+### Openhatch 
+A non-profit dedicated to matching prospective free software contributors with communities, tools, and education. 
+
+[openhatch](https://openhatch.org/)
+
+## VIDEOS
+
+[Leveraging Open Source - Everything You Wanted to Know About Open Source that Nobody Told You (including getting paid to do it)](https://vimeo.com/28610688)
+
 ------------------------------------------------
 
 #### License: 
