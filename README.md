@@ -2,7 +2,7 @@
 
 ## Intro
 
-This website is an **open source project** that anyone can enrich with more links and information. Fore more information: [How to contribute to Site\_Name]()
+This website is an **open source project** that anyone can enrich with more links and information. [Fore more details]()
 
 It contains:
 * Some Free/OpenSource projects to which contribution is facilitated 
