@@ -6,6 +6,8 @@ Because findig how to be helpful in the Free/OpenSource comunity is still not st
 
 ##### Why the generator? 
 Because other static web generators are too complex for the needs of the project. (pip install -r requirements.txt)
+It's really easy, you can even ignore verything and only check the *Data/* folder. 
+Modifying one file can be enough to make the wanted changes (*Data/links.yaml* to add/modify a project in the website's [main page](https://fosjump.github.io/). And *Data/other.yaml* for the [Other Materials](https://fosjump.github.io/other.html) page).
 
 ### How to contribute to **FOS Jump** ?
 
