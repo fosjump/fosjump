@@ -17,28 +17,27 @@ There are three main ways to proceed:
 The structure of the project is really simple:
 	* One python program to generate the website (in the *output* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
 	* Templates are in the *template* folder
-	* The *Data* folder contains three files:
-		* *projects.yml*: contain all the project links in 
-	```yaml
-		"ProjectName":
-		    text: "that explains what the project is about"
-		    linkName: "The button to clic"
-		    linkURL: https://how.tojoin.the/project
-		    image: imagename.jpg
-	```	
+	* The *Data* folder contains files you're might want to eddit (please follow their simple format):
+		* *projects.yml*: contains all the project links. Note that, if you add a project, you need to add an image for it.
+			```yaml
+				"ProjectName":
+				    text: "that explains what the project is about"
+				    linkName: "The button to clic"
+				    linkURL: https://how.tojoin.the/project
+				    image: imagename.jpg
+			```	
+		* *other.yml*: contains the other links and videos
+			```yaml
+				videos:
+					"video name":
+						link: http://the.link.to/it
+				....
+				interesting:
+		    			"a Name": 
+						text: " This link is supposed to help finding other Open Source projects to contribute to"
+						link: https://the.actual.link/
 
-		* *other.yml*: contain all the links in yaml format
-	```yaml
-		videos:
-			"video name":
-				link: http://the.link.to/it
-		....
-		interesting:
-    			"a Name": 
-        			text: "A non-profit dedicated to matching prospective free software contributors with communities, tools, and education. "
-			        link: https://openhatch.org/
-
-	```
+			```
 		* *contribute.md*: markdown content of contrib.html
 		
 
