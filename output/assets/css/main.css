@@ -2193,6 +2193,10 @@
 		padding: 3em;
 	}
 
+	.box.boxes {
+			height: 33em;
+	}
+
 		.box > :last-child {
 			margin-bottom: 0;
 		}

@@ -25,7 +25,7 @@
     image: mozilla.jpg
 
 "GNU Operating System":
-    text: "GNU is an operating system that is free software. The development of GNU made it possible to use a computer without software that would trample your freedom."
+    text: "GNU is an operating system that is free software. It made it possible to use a computer without software that would trample your freedom."
     linkName: "Help"
     linkURL: https://gnu.org/help/help.html
     image: gnuOS.jpg
