@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+
+{% block body  %}
+
+			<!-- Banner -->
+				<section id="banner">
+					<h2>FOS Contrib</h2>
+					<p>Jump into the Freedom of the Open Source world</p>
+					<ul class="actions">
+						<li><a href="contrib.html" class="button">Contribute</a></li>
+					</ul>
+				</section>
+
+			<!-- Main -->
+				<section id="main" class="container">
+
+					<section class="box special">
+						<header class="major">
+							<h2>An Open Source website about Open Source projects
+							</h2>
+							<p>Here you can find links to some interesting Free / Open Source Projects you might want to contribute to. This website is an open source project that anyone can enrich with more links and information.<br><br>
+
+							It contains also <a>other materials</a> among which you can find links that might help one find other interesting projects, and a collection of videos about Free/OpenSoruce contribution.<br>
+							</p>
+						</header>
+					</section>
+
+				<div class="row">
+
+			    {% for key, value in links.items() %}
+						<div class="6u 12u(narrower)">
+
+						    <section class="box special">
+						        <span class="image featured"><img src="images/projects/{{ value['image'] }}" alt="" /></span>
+						        <h3>{{ key }}</h3>
+						        <p>{{ value['text'] }}</p>
+						        <ul class="actions">
+						            <li><a href="{{ value['linkURL'] }}" class="button alt">{{ value['linkName'] }}</a></li>
+						        </ul>
+						    </section>
+					    </div>
+			    {% endfor %}
+
+				</div>
+
+				</section>
+
+{% endblock %}
+

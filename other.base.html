@@ -1,0 +1,50 @@
+
+{% extends "base.html" %}
+
+{% block body  %}
+
+			<!-- Main -->
+				<section id="main" class="container">
+					<header>
+						<h2>Other materials</h2>
+						<p>Find other projects & interesting videos.</p>
+					</header>
+				
+					<div class="row">
+						<div class="12u">
+
+							<!-- Buttons -->
+
+								<section class="box">
+								<header>
+								<h3>Find other Projects:</h3>
+								<p>Here are some other ways of finding a Free/Open Source project to contribute to:</p>
+								</header>
+
+								{% for key, value in otherData['interesting'].items() %}
+									<header>
+									<h4><a href="{{ value['link'] }}">{{ key }}</a></h4>
+									<h3></h3>
+									<p>{{ value['text'] }}</p>
+									</header>
+								{% endfor %}
+								
+							<hr />
+
+								<header>
+								<h3>Whatch some videos:</h3>
+								<p>Some interesting videos:</p>
+								</header>
+
+								<lu class="alt">
+								{% for videoName, value in otherData['videos'].items() %}
+									<li><a href="{{ value['link'] }}">{{ videoName }}</a></li>
+								{% endfor %}
+								</lu>
+
+								</h4></section>
+						</div>
+					</div>
+				</section>
+
+{% endblock %}

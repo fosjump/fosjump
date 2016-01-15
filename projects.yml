@@ -1,0 +1,25 @@
+#Links to FOS projects
+
+"Fedora":
+    text: "The Fedora Project is a project sponsored by Red Hat to co-ordinate the development of the Linux-based Fedora operating system."
+    linkName: "Join Fedora"
+    linkURL: https://fedoraproject.org/wiki/Join
+    image: fedora.jpg
+
+"ISSO":
+    text: "A free Disqs alternative. It allows anonymous comments, maintains identity and is simple to administrate. It uses JavaScript and cross-origin ressource sharing for easy integration into (static) websites."
+    linkName: "Contribute to ISSO"
+    linkURL: https://posativ.org/isso/contribute/
+    image: isso.jpg
+
+"Mozilla":
+    text: "Mozilla is a free-software community that uses, develops, spreads and supports Mozilla products, promoting exclusively free software and open standards, with only minor exceptions."
+    linkName: "Join Mozilla"
+    linkURL: https://www.mozilla.org/en-US/contribute/signup/
+    image: mozilla.jpg
+
+"DuckDuckGo":
+    text: "DuckDuckGo is an Internet search engine that emphasizes protecting searchers' privacy and avoiding the filter bubble of personalized search results."
+    linkName: "Contribute"
+    linkURL: https://duck.co/help/contributing/contributing-intro
+    image: duckduckgo.jpg
