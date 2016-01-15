@@ -9,12 +9,12 @@ Because other static web generators are too complex for need of the project.
 
 ### How to contribute to **FOS Jump** ?
 
-Anyone can propose links to:
+Anyone can propose:
 
 * FOS Projects with **good how-to-contribute readings**;
-* Website that help finding projects FOS Projects to participate to;
+* Websites that help finding projects FOS Projects to participate to;
 * Videos about the subject;
-* Or propose any other idea for improving this platform.
+* Or any other idea for improving the platform.
 
 There are three main ways to proceed:
 
@@ -23,7 +23,7 @@ The structure of the project is really simple:
 * One python program to generate the website (in the *output* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
 * Jinja2 templates are in the *template* folder
 * The *Data* folder contains the files you might want to eddit (please follow their simple format):
-	* *projects.yml*: contains all the project links. Note that, if you add a project, you need to add an image for it.
+	* *projects.yml*: contains all the project links. Note that, if you add a project, you need to add an image for it in the *projectsImage/* folder.
 
 		```yaml
 			"ProjectName":
