@@ -1,11 +1,11 @@
 ### This is the very simple **FOS Jump** Generator
 
-##### Why *FOS Jump** ?
+##### Why *FOS Jump* ?
 Because helping the Free/OpenSource comunity is still not straight forward.
 
 
 ##### Why the generator? 
-Because other static website generators were too complex for the actual need.
+Because other static web generators are too complex for need of the project.
 
 ### How to contribute to **FOS Jump** ?
 
@@ -20,33 +20,33 @@ There are three main ways to proceed:
 
 #### 1. Making a pull request ([github project]()).
 The structure of the project is really simple:
-	* One python program to generate the website (in the *output* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
-	* Templates are in the *template* folder
-	* The *Data* folder contains files you're might want to eddit (please follow their simple format):
-		* *projects.yml*: contains all the project links. Note that, if you add a project, you need to add an image for it.
+* One python program to generate the website (in the *output* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
+* Templates are in the *template* folder
+* The *Data* folder contains files you're might want to eddit (please follow their simple format):
+	* *projects.yml*: contains all the project links. Note that, if you add a project, you need to add an image for it.
 
-			```yaml
-				"ProjectName":
-				    text: "that explains what the project is about"
-				    linkName: "The button to clic"
-				    linkURL: https://how.tojoin.the/project
-				    image: imagename.jpg
-			```	
+		```yaml
+			"ProjectName":
+			    text: "that explains what the project is about"
+			    linkName: "The button to clic"
+			    linkURL: https://how.tojoin.the/project
+			    image: imagename.jpg
+		```	
 
-		* *other.yml*: contains the other links and videos
+	* *other.yml*: contains the other links and videos
 
-			```yaml
-				videos:
-					"video name":
-						link: http://the.link.to/it
-				....
-				interesting:
-		    			"a Name": 
-						text: " This link is supposed to help finding other Open Source projects to contribute to"
-						link: https://the.actual.link/
+		```yaml
+			videos:
+				"video name":
+					link: http://the.link.to/it
+			....
+			interesting:
+	    			"a Name": 
+					text: " This link is supposed to help finding other Open Source projects to contribute to"
+					link: https://the.actual.link/
 
-			```
-		* *contribute.md*: markdown content of contrib.html
+		```
+	* *contribute.md*: markdown content of contrib.html
 		
 
 
