@@ -5,7 +5,7 @@ Because findig how to be helpful in the Free/OpenSource comunity is still not st
 
 
 ##### Why the generator? 
-Because other static web generators are too complex for need of the project.
+Because other static web generators are too complex for the needs of the project. (pip install -r requirements.txt)
 
 ### How to contribute to **FOS Jump** ?
 
@@ -20,7 +20,7 @@ There are three main ways to proceed:
 
 #### 1. Making a pull request ([github project]()).
 The structure of the project is really simple:
-* One python program to generate the website (in the *output* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
+* One python program (*generator.py*) to generate the website (into the *output/* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
 * Jinja2 templates are in the *template* folder
 * The *Data* folder contains the files you might want to eddit (please follow their simple format):
 	* *projects.yml*: contains all the project links. Note that, if you add a project, you need to add an image for it in the *projectsImage/* folder.
