@@ -19,16 +19,16 @@ The structure of the project is really simple:
 	* Templates are in the *template* folder
 	* The *Data* folder contains three files:
 		* *projects.yml*: contain all the project links in 
-	'''yaml
+	```yaml
 		"ProjectName":
 		    text: "that explains what the project is about"
 		    linkName: "The button to clic"
 		    linkURL: https://how.tojoin.the/project
 		    image: imagename.jpg
-	'''	
+	```	
 
 		* *other.yml*: contain all the links in yaml format
-	'''yaml
+	```yaml
 		videos:
 			"video name":
 				link: http://the.link.to/it
@@ -38,7 +38,7 @@ The structure of the project is really simple:
         			text: "A non-profit dedicated to matching prospective free software contributors with communities, tools, and education. "
 			        link: https://openhatch.org/
 
-	'''
+	```
 		* *contribute.md*: markdown content of contrib.html
 		
 
