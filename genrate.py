@@ -61,11 +61,18 @@ def renderOther():
 
 
 if __name__ == "__main__":
+    # Put your pictures in "projectImages/" folder
+    # they'll be copied to the right place
     os.system("cp projectImages/* output/images/projects/")
 
+    # Put the three next lines into a while loop
+    # if you want not to execute this code each time
+    # you want to refresh
+
+    # while(1):
+    renderIndex()
+    renderContrib()
+    renderOther()
+    sleep(2)
+
     # Might wanna add a simple http server instead
-    while(1):
-        renderIndex()
-        renderContrib()
-        renderOther()
-        sleep(5)

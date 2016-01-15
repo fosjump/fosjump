@@ -10,11 +10,11 @@ Anyone can add:
 
 There are three main ways to proceed:
 
-1. Making a pull request to the ([github project]()).
+1. Making a pull request to the [github project](https://github.com/fosjump/fosjump).
 2. Via github issues: 
-    * Adding links by commenting to [newProjectLinks issue](http://github.com/fos-contrib/fos-contrib.github.io/issues/projectLinks) or [otherLinks issue](http://github.com/fos-contrib/fos-contrib.github.io/issues/otherLinks)
-    * Modifying or proposing something else by [creating a new issue](http://github.com/fos-contrib/fos-contrib.github.io/issues)
-3. Or sending an email to fosjump@ (if you don't have a github account)
+    * Adding links by commenting to [newProjectLink issue](https://github.com/fosjump/fosjump/issues/2) or [otherLinks issue](https://github.com/fosjump/fosjump/issues/1)
+    * Modifying or proposing something else by [creating a new issue](https://github.com/fosjump/fosjump/issues)
+3. Or sending an email to fosjump@tutanota.com (if you don't have a github account)
 
 
 **IMPORTANT**: Only links to FOS projects that are new-commers-friendly are accepted in [the main list](index.html). 

@@ -1,7 +1,7 @@
 ### This is the very simple **FOS Jump** Generator
 
 ##### Why *FOS Jump* ?
-Because helping the Free/OpenSource comunity is still not straight forward.
+Because findig how to be helpful in the Free/OpenSource comunity is still not straight forward.
 
 
 ##### Why the generator? 
@@ -51,8 +51,8 @@ The structure of the project is really simple:
 
 
 #### 2. Via github issues: 
-* Adding links by commenting to [newProjectLink issue](http://github.com/fos-contrib/fos-contrib.github.io/issues/projectLinks) or [otherLinks issue](https://github.com/SamyMe/FOSS-contrib/issues/2)
-* Proposing a modification or something else by [creating a new issue](http://github.com/fos-contrib/fos-contrib.github.io/issues)
+* Adding links by commenting to [newProjectLink issue](https://github.com/fosjump/fosjump/issues/2) or [otherLinks issue](https://github.com/fosjump/fosjump/issues/1)
+* Proposing a modification or something else by [creating a new issue](https://github.com/fosjump/fosjump/issues)
 
 ####3. Or sending an email to fosjump@tutanota.com (if you don't have a github account)
 
