@@ -6,25 +6,14 @@ Because findig how to be helpful in the Free/OpenSource comunity is still not st
 
 ##### Why the generator? 
 Because other static web generators are too complex for the needs of the project. (pip install -r requirements.txt)
-It's really easy, you can even ignore verything and only check the *Data/* folder. 
-Modifying one file can be enough to make the wanted changes (*Data/links.yaml* to add/modify a project in the website's [main page](https://fosjump.github.io/). And *Data/other.yaml* for the [Other Materials](https://fosjump.github.io/other.html) page).
+It's really easy, you can even ignore everything and only check the *Data/* folder for modifications. 
 
-### How to contribute to **FOS Jump** ?
+### The project structure:
 
-Anyone can propose:
-
-* FOS Projects with **good how-to-contribute readings**;
-* Websites that help finding projects FOS Projects to participate to;
-* Videos about the subject;
-* Or any other idea for improving the platform.
-
-There are three main ways to proceed:
-
-#### 1. Making a pull request ([github project]()).
-The structure of the project is really simple:
-* One python program (*generator.py*) to generate the website (into the *output/* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
-* Jinja2 templates are in the *template* folder
-* The *Data* folder contains the files you might want to eddit (please follow their simple format):
+It's really simple:
+* *generate.py*: One python program (*generator.py*) to generate the website (into the *output/* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
+* *template/*: contains Jinja2 templates are in the
+* *Data/*: contains the files you might want to eddit (please follow their simple format):
 	* *projects.yml*: contains all the project links. Note that, if you add a project, you need to add an image for it in the *projectsImage/* folder.
 
 		```yaml
@@ -51,6 +40,21 @@ The structure of the project is really simple:
 	* *contribute.md*: markdown content of contrib.html
 		
 
+Modifying one file can be enough to make the wanted changes (Again: *Data/links.yaml* to add or modify a project in the website's [main page](https://fosjump.github.io/). And *Data/other.yaml* for the [Other Materials](https://fosjump.github.io/other.html) page).
+
+
+### How to contribute to **FOS Jump** ?
+
+Anyone can propose:
+
+* FOS Projects with **good how-to-contribute readings**;
+* Websites that help finding projects FOS Projects to participate to;
+* Videos about the subject;
+* Or any other idea for improving the platform.
+
+There are three main ways to proceed:
+
+#### 1. Making a pull request ([github project]()).
 
 #### 2. Via github issues: 
 * Adding links by commenting to [newProjectLink issue](https://github.com/fosjump/fosjump/issues/2) or [otherLinks issue](https://github.com/fosjump/fosjump/issues/1)
