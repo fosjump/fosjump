@@ -11,8 +11,8 @@ It's really easy, you can even ignore everything and only check the *Data/* fold
 ### The project structure:
 
 It's really simple:
-* *generate.py*: One python program (*generator.py*) to generate the website (into the *output/* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
-* *template/*: contains Jinja2 templates are in the
+* *generate.py*: One python program to generate the website (into the *output/* folder) using [jinja2](http://jinja.pocoo.org/) templating. 
+* *template/*: contains the Jinja2 templates
 * *Data/*: contains the files you might want to eddit (please follow their simple format):
 	* *projects.yml*: contains all the project links. Note that, if you add a project, you need to add an image for it in the *projectsImage/* folder.
 
@@ -37,7 +37,7 @@ It's really simple:
 					link: https://the.actual.link/
 
 		```
-	* *contribute.md*: markdown content of contrib.html
+	* *contribute.md*: markdown content of [contrib.html](https://fosjump.github.io/contrib.html)
 		
 
 Modifying one file can be enough to make the wanted changes (Again: *Data/links.yaml* to add or modify a project in the website's [main page](https://fosjump.github.io/). And *Data/other.yaml* for the [Other Materials](https://fosjump.github.io/other.html) page).
