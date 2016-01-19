@@ -35,3 +35,9 @@
     linkName: "Contribute"
     linkURL: https://en.wikibooks.org/wiki/GNU_Health/Contributing
     image: gnuhealth.jpg
+
+"OpenStack":
+    text: "OpenStack is a free and open-source software platform for cloud computing, mostly deployed as an infrastructure-as-a-service (IaaS)."
+    linkName: "Contribute"
+    linkURL: https://wiki.openstack.org/wiki/How_To_Contribute
+    image: openstack.jpg
