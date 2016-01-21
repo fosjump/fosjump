@@ -41,3 +41,9 @@
     linkName: "Contribute"
     linkURL: https://wiki.openstack.org/wiki/How_To_Contribute
     image: openstack.jpg
+
+"OpenMRS":
+    text: "The global OpenMRS community works together to build the world's leading open source enterprise electronic medical record system platform."
+    linkName: "Join the Comunity" 
+    linkURL: http://openmrs.org/help/
+    image: openmrs.jpg
