@@ -59,3 +59,15 @@
     linkName: "Join Us"
     linkURL: https://wiki.gnome.org/action/show/Newcomers
     image: gnome.jpg
+
+"KDE":
+    text: "The KDE Community is an international technology team dedicated to creating a free and user-friendly computing experience, offering an advanced graphical desktop, a wide variety of applications."
+    linkName: "Contribute"
+    linkURL: "https://techbase.kde.org/Contribute"
+    image: kde.jpg
+
+"Ubuntu":
+    text: "Ubuntu is a Debian-based Linux operating system and distribution for personal computers, smartphones and network servers with Unity as its default desktop environment."
+    linkName: "Contribute"
+    linURL: https://community.ubuntu.com/contribute/
+    image: ubuntu.jpg
