@@ -47,3 +47,9 @@
     linkName: "Join the Comunity" 
     linkURL: http://openmrs.org/help/
     image: openmrs.jpg
+
+"LibreOffice":
+    text: "LibreOffice is a powerful office suite; Its clean interface and its powerful tools let you unleash your creativity and grow your productivity."
+    linkName: "Get Involved"
+    linkURL: https://www.libreoffice.org/community/get-involved/
+    image: libreoffice.jpg

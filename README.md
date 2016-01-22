@@ -3,6 +3,16 @@
 ##### Why *FOS Jump* ?
 Because findig how to be helpful in the Free/OpenSource comunity is still not straight forward.
 
+Also:
+
+- **Fact n°1**: There are a lot of people who want to help with the FLOS movement because they simply love the idea of it, but they just don't know how they want to do so (not sure what they want to code, or even if they want to code). 
+
+- **Fact n°2**: At the same time: There are a lot of different materials out there that could help one get involved in the FLOS movement (like OpenHatch and Github's tool, and some specific projects with their well organized how-to-contrib documentation and welcoming community), 
+
+- **So**: I thought it might be nice to regroup the tools available in one website ([FOS Jump](https://fosjump.github.io/)) and let people chose which one they feel more comfortable using.
+
+*TL;DR* : This is not about creating the tools, it's about regrouping them in a very simple and user friendly way.
+
 
 ##### Why the generator? 
 Because other static web generators are too complex for the needs of the project. (pip install -r requirements.txt)
