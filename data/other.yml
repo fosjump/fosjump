@@ -3,6 +3,10 @@ videos:
         link: https://vimeo.com/28610688
 
 interesting:
+    "Your First PR":
+        text: "Your First PR helps you contribute to Open Source by showcasing great starter issues on GitHub and elsewhere."
+        link : https://yourfirstpr.github.io/
+
     "OpenHatch": 
         text: "A non-profit dedicated to matching prospective free software contributors with communities, tools, and education. "
         link: https://openhatch.org/
