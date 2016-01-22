@@ -53,3 +53,9 @@
     linkName: "Get Involved"
     linkURL: https://www.libreoffice.org/community/get-involved/
     image: libreoffice.jpg
+
+"Gnome":
+    text: "GNOME 3 is an easy and elegant way to use your computer. It is designed to put you in control and bring freedom to everybody."
+    linkName: "Join Us"
+    linkURL: https://wiki.gnome.org/action/show/Newcomers
+    image: gnome.jpg
