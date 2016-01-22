@@ -12,7 +12,7 @@ There are three main ways to proceed:
 
 1. Making a pull request to the [github project](https://github.com/fosjump/fosjump).
 2. Via github issues: 
-    * Adding links by commenting to [newProjectLink issue](https://github.com/fosjump/fosjump/issues/2) or [otherLinks issue](https://github.com/fosjump/fosjump/issues/1)
+    * Adding links by commenting to [newNewLink issue](https://github.com/fosjump/fosjump/issues/2) or creating your own.
     * Modifying or proposing something else by [creating a new issue](https://github.com/fosjump/fosjump/issues)
 3. Or sending an email to **fosjump@tutanota.com** (if you don't have a github account)
 
