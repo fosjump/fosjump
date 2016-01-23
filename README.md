@@ -60,6 +60,7 @@ Anyone can propose:
 * FOS Projects with **good how-to-contribute readings**;
 * Websites that help finding projects FOS Projects to participate to;
 * Videos about the subject;
+* Solutions to [an issue](https://github.com/fosjump/fosjump/issues)
 * Or any other idea for improving the platform.
 
 There are three main ways to proceed:
