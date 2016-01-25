@@ -12,7 +12,8 @@ def serve():
 
     httpd = socketserver.TCPServer(("", PORT), Handler)
 
-
+    # Change working directory to output because http.server only serves the
+    # working dir
     os.chdir('output')
     print("serving at port", PORT)
     httpd.serve_forever()
