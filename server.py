@@ -3,6 +3,9 @@ import socketserver
 import os
 
 def serve():
+
+    # Serve on port 3000, Todo: let the user choose the port through CLI
+    # arguments
     PORT = 3000
 
     Handler = http.server.SimpleHTTPRequestHandler
