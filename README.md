@@ -22,6 +22,7 @@ It's really easy, you can even ignore everything and only check the `data/` fold
 
 It's really simple:
 * `generate.py`: One python program to generate the website (into the `output/` folder) using [jinja2](http://jinja.pocoo.org/) templating. 
+* `server.py`: A simple python script that creates a HTTP server inside the `output/` folder if you want to serve the site locally.
 * `template/`: contains the Jinja2 templates
 * `data/`: contains the files you might want to edit (please follow their simple format):
 	* `projects.yml`: contains all the project links. Note that, if you add a project, you need to add an image for it in the `projectsImage/` folder.
