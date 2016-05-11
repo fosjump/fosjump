@@ -69,5 +69,10 @@
 "Ubuntu":
     text: "Ubuntu is a Debian-based Linux operating system and distribution for personal computers, smartphones and network servers with Unity as its default desktop environment."
     linkName: "Contribute"
-    linURL: https://community.ubuntu.com/contribute/
+    linkURL: https://community.ubuntu.com/contribute/
     image: ubuntu.jpg
+"Mailman":
+    text: "Mailman is free software for managing electronic mail discussion and e-newsletter lists."
+    linkName: "Contribute"
+    linkURL: http://list.org/contact.html
+    image: mailman.jpg
